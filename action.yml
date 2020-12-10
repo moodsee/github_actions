@@ -1,0 +1,8 @@
+name: 'WIP blocker with labels in PR'
+description: 'Github action WIP blocker with labels in Pull requests'
+branding:
+  icon: 'tag'
+  color: 'gray-dark'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
